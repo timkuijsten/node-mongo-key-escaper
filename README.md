@@ -1,5 +1,8 @@
 # mongo-key-escaper
 
+**NOTE: this package has been renamed to [mongo-escape]** Thanks to @TooTallNate
+for the generous release of the package name.
+
 Properly escape variables to prevent NoSQL injection in MongoDB.
 
 Escape all occurences of "$" and "." where needed and replace them with "＄"
@@ -87,6 +90,7 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+[mongo-escape]: https://www.npmjs.com/package/mongo-escape
 [server side JavaScript is disabled]: https://docs.mongodb.com/manual/core/server-side-javascript/#disable-server-side-js
 [mapReduce]: https://docs.mongodb.com/manual/reference/command/mapReduce/#dbcmd.mapReduce
 [$where]: https://docs.mongodb.com/manual/reference/operator/query/where/#op._S_where
